@@ -1,4 +1,4 @@
-##<font color=green>代码签名选项(Code Signing Options)</font>
+##代码签名选项(Code Signing Options)
 代码签名选项是JTool的第二大功能。对于iOS通过代码签名和授权文件的安全方案来说，重要的是要有一种方法来快速确定二进制文件拥有的授权以及签名的方式。OS X已经有了这样的工具，但是我发现它粗糙的多，而且还没有什么端口供iOS使用，因此jtool这样的工具就很有必要了。
 
 
