@@ -1,4 +1,4 @@
-##代码签名选项(Code Signing Options)
+## 代码签名选项(Code Signing Options)
 代码签名选项是JTool的第二大功能。对于iOS通过代码签名和授权文件的安全方案来说，重要的是要有一种方法来快速确定二进制文件拥有的授权以及签名的方式。OS X已经有了这样的工具，但是我发现它粗糙的多，而且还没有什么端口供iOS使用，因此jtool这样的工具就很有必要了。
 
 
@@ -75,7 +75,7 @@ Phontifex-Magnus:~ root# jtool  --ent /System/Library/CoreServices/SpringBoard.a
 ```
 再次提醒下，你需要记住，jtool是用shell脚本设计的，所以你也可以做一个或者其他工具来获得所有那些苹果在使用的但是没有文档化的权限(entitlements)。（作者正在整理这些到数据库中，完成后会公开分享出来 --译者注）
 
-####--sign
+#### --sign
 该选项是我在内部已经使用很长时间的功能，最终才发布出来。jtool是用和Saurik's相同的方式来生成自签名二进制文件。因此，您可以指定要插入或者使用的权限文件。该工具可能导致未知的结果，一旦你使用它，就代表了你同意这个临时警告/免责声明：
 ```
 morpheus@Zephyr (~)$  jtool --sign binary
