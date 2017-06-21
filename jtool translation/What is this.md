@@ -87,7 +87,7 @@ Note: Experimental features may not be available in public version of this tool
 所以让我们逐个去说明每一个选项。
 
 
-重要提示：Jtool已经过彻底的测试，但我仍然依靠你的错误报告来解决Mach-O menagerie中更多的bug。 如果你有一个JTool很难解析的二进制，或者如果它引起了JTool的崩溃，请告知我。 我不能修复我不知道的错误..遇到问题，你可以尝试使用NOOBJC = 1再次运行jtool，来禁用OBJC支持（可能还有bug）。
+重要提示：Jtool已经过全面的测试，但我仍然依靠你的错误报告来解决Mach-O menagerie中更多的bug。 如果你有一个JTool很难解析的二进制，或者如果它引起了JTool的崩溃，请告知我。 我不能修复我不知道的错误..遇到问题，你可以尝试使用NOOBJC = 1再次运行jtool，来禁用OBJC支持（可能还有bug）。
 
 jtool有很多有用的功能，我不能把它们全部放在man页面中。 真的，没有人读这个人（因为你必须将jtool.1移动到/usr/share/man/man1）。 所以我最后发布了一个像样的HTML文档。 这个文档正在逐渐丰富，但是目前还没有覆盖所有功能。
 
