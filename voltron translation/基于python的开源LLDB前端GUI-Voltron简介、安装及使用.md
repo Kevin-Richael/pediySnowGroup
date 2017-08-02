@@ -122,7 +122,7 @@ A.像Voltron这种所有牛逼的GDB扩展都提供了附加命令集，还提�
 
 在Github上查看问题跟踪[issue tracker](https://github.com/snare/voltron/issues)，或者提交问题 .
 
-如果你在运行Voltron时遇到加载错误，首先请确保你按照正确的平台[安装(https://github.com/snare/voltron/wiki/Installation)说明]做了
+如果你在运行Voltron时遇到加载错误，首先请确保你按照正确的平台[安装说明](https://github.com/snare/voltron/wiki/Installation)做了
 ## LLDB
 
 在旧版本的LLDB，Voltron init命令必须在加载调试目标后手动运行。就好比目标程序必须在Voltron Hook安装前载入。Voltron 将会尝试自动注册它的事件处理程序，并在需要voltron init时通知用户。
