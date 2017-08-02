@@ -122,22 +122,22 @@ A.像Voltron这种所有牛逼的GDB扩展都提供了附加命令集，还提�
 
 在Github上查看问题跟踪[issue tracker](https://github.com/snare/voltron/issues)，或者提交问题 .
 
-如果你在运行Voltron时遇到加载错误，首先请确保你按照正确[平台安装](https://github.com/snare/voltron/wiki/Installation)说明做了
-LLDB
+如果你在运行Voltron时遇到加载错误，首先请确保你按照正确的平台[安装(https://github.com/snare/voltron/wiki/Installation)说明]做了
+## LLDB
 
 在旧版本的LLDB，Voltron init命令必须在加载调试目标后手动运行。就好比目标程序必须在Voltron Hook安装前载入。Voltron 将会尝试自动注册它的事件处理程序，并在需要voltron init时通知用户。
-WinDbg
+## WinDbg
 
 更多关于 WinDbg/CDB 的支持信息，请[戳我](https://github.com/snare/voltron/wiki/Installation#windbg)
-Misc
+## Misc
 
 作者主要在MacOS最新版本的LLDB上使用Voltron。在发布之前，我们将尽可能在更多的平台和架构上测试，但LLDB / MacOS / x64将是迄今为止最常用的组合。希望Voltron不会让你失望！。
-License
+## License
 
 查看许可文件[License](https://github.com/snare/voltron/blob/master/LICENSE).
 
 如果你在使用Voltron，并且你不讨厌的话，请支持我吧，该许可证还延伸到其他贡献者[-richo],(https://github.com/richo)他值得我们的支持。
-Credits
+## Credits
 
 感谢我以前的雇主 Assurance and Azimuth Security 让我有时间在这方面工作。
 
