@@ -136,7 +136,7 @@ A.像Voltron这种所有牛逼的GDB扩展都提供了附加命令集，还提�
 
 查看许可文件[License](https://github.com/snare/voltron/blob/master/LICENSE).
 
-如果你在使用Voltron，并且你不讨厌的话，请支持我吧，该许可证还延伸到其他贡献者[-richo],(https://github.com/richo)他值得我们的支持。
+如果你在使用Voltron，并且你不讨厌的话，请支持我吧，该许可证还延伸到其他贡献者--[richo](https://github.com/richo)，他值得我们的支持。
 ## Credits
 
 感谢我以前的雇主 Assurance and Azimuth Security 让我有时间在这方面工作。
