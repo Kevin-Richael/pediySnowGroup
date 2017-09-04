@@ -1,6 +1,6 @@
 ##安卓工具类方法
 
-![Alt text](/pediySnowGroup/Android instrumentation.png)
+![Android instrumentation.png](./Android instrumentation.png)
 
 ##和java相辅相成
 
@@ -13,14 +13,20 @@
 * java.choose()-遍历堆查找java实例对象
 
 ##钩住java方法
+```javascript
+const Handler = classFactory.use("android.os.Handler");
 
-![Alt text](/pediySnowGroup/HookingJavamethods.png)
+Handler.dispatchMessage.implementation = function (msg){
+//Chain up tp the original implementation
+this.dispatchMessage(msg)
 
+}
+```
 ##简单的工具类方法
-1.pid = frida.spawn(["/bin/ls"])
-2.session = frida.attach(pid)
-3.script = session.create_script("your script")
-4.<apply instrumentation>–推荐使用RPC的这个: script.exports.init()	
-5.frida.resume(pid) - 应用程序的主线程将进入main()
+1. pid = frida.spawn(["/bin/ls"])
+2. session = frida.attach(pid)
+3. script = session.create_script("your script")
+4. (apply instrumentation)–推荐使用RPC的这个: script.exports.init()	
+5. frida.resume(pid) - 应用程序的主线程将进入main()
 
 针对手机app是定它的identifier：spawn([com.apple.AppStore]) 忘记identifier是什了？使用frida-ps-ai查看
