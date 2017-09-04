@@ -1,6 +1,7 @@
 ##安卓工具类方法
 
-![Alt text](/Users/siv/Desktop/android instrumentation/Android instrumentation.png)
+![Alt text](/pediySnowGroup/Android instrumentation.png)
+
 ##和java相辅相成
 
 * java.available- 是现在运行时？
@@ -13,7 +14,7 @@
 
 ##钩住java方法
 
-![Alt text](/Users/siv/Desktop/android instrumentation/HookingJavamethods.png)
+![Alt text](/pediySnowGroup/HookingJavamethods.png)
 
 ##简单的工具类方法
 1.pid = frida.spawn(["/bin/ls"])
